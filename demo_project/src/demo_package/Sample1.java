@@ -16,7 +16,7 @@ public class Sample1 {
 		Thread.sleep(1000);
 		driver.findElement(By.name("user_session[login]")).sendKeys("abdul.lodi");
 		Thread.sleep(1000);
-		driver.findElement(By.name("user_session[password]")).sendKeys("Bangladesh3829$");
+		driver.findElement(By.name("user_session[password]")).sendKeys("Bangladesh9$");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//*[@type='submit']")).click();
 	}
